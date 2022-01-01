@@ -50,7 +50,7 @@ async function main(){
 ////***************** */
 setTimeout(()=>{
   control_rsi_and_send(data_all)
-},5000)//65000)
+},65000)
 setInterval(()=>{
   control_rsi_and_send(data_all)
 },600000)
